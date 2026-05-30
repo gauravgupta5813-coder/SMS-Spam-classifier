@@ -1,4 +1,5 @@
 # SMS Spam Classifier with Imbalance Handling (SMOTE)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gauravgupta5813-coder/SMS-Spam-classifier/blob/main/Spam_Classifier.ipynb)
 
 An end-to-end Machine Learning pipeline utilizing Natural Language Processing (NLP) to automate the classification of Short Message Service (SMS) text messages into operational designations: **Ham** (legitimate communications) and **Spam** (unsolicited or malicious traffic). 
 
