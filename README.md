@@ -72,6 +72,7 @@ Gaurav Gupta - Data Science Portfolio Framework Execution
 ├── notebooks/
 │   └── Spam_Classifier.ipynb     # Complete documented execution notebook 
 └── README.md                     # Portfolio documentation and project index
+|__ requirements.txt              # List of libraries (pandas, nltk, scikit-learn, imblearn
 
 
 
