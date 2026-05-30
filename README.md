@@ -54,6 +54,15 @@ To simulate true live deployment settings, the pipeline features an operational 
 * **Sample Inference Input:** `"Your Amazon order has been delivered"`
 * **Output Vector Classification Target:** `[0] -> (Not Spam)`
 
+🚀 Future Development Goals
+Hyperparameter Tuning: Implement automated cross-validation grid searches (GridSearchCV) to tune TfidfVectorizer n-gram ranges and Naive Bayes smoothing variables (alpha).
+
+Algorithmic Benchmarking: Test performance curves against sequential baseline structures including Logistic Regression, Support Vector Machines (SVM), and Random Forests.
+
+Model Deployment Persistence: Integrate native serialization routines utilizing joblib or pickle to export pipeline binaries, serving as a backend for standalone API architectures.
+
+👥 Authorship & Acknowledgements
+Gaurav Gupta - Data Science Portfolio Framework Execution
 ---
 
 ## 📂 Project Repository Structure
@@ -65,12 +74,4 @@ To simulate true live deployment settings, the pipeline features an operational 
 └── README.md                     # Portfolio documentation and project index
 
 
-🚀 Future Development Goals
-Hyperparameter Tuning: Implement automated cross-validation grid searches (GridSearchCV) to tune TfidfVectorizer n-gram ranges and Naive Bayes smoothing variables (alpha).
 
-Algorithmic Benchmarking: Test performance curves against sequential baseline structures including Logistic Regression, Support Vector Machines (SVM), and Random Forests.
-
-Model Deployment Persistence: Integrate native serialization routines utilizing joblib or pickle to export pipeline binaries, serving as a backend for standalone API architectures.
-
-👥 Authorship & Acknowledgements
-Gaurav Gupta - Data Science Portfolio Framework Execution
